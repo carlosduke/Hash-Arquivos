@@ -2,15 +2,16 @@
 #include <stdlib.h> //Biblioteca com varias funcoes usadas durante a execucao do programa.
 #include <stdio.h> //Para controle de entrada e saida de stream de dados.
 
-#include "include/teste.h"
+//#include "include/teste.h"
+#include "include/ponteiros.h"
 
 int main(int argc, char* argv[]){
-	printf("Iniciando sistema.\n");
+	humano carlos = {
+		"Caros Roberto",
+		22,
+		'M'
+	};
 	
-	texto teste = {sizeof("Carlos Roberto Lima Junior"),"Carlos Roberto Lima Junior"};
-	mensagem();
-	
-	printf("Tamanho: %d, %s\n",teste.tamanho,teste.texto);
-	printf("Finalizando.\n");
+	exibeHumano(carlos);
 	return 0;
 }
