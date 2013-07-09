@@ -13,11 +13,7 @@ int main(int argc, char* argv[]){
 	};
 	
 	exibeHumano(carlos);
-	
-	humano *p_carlos = &carlos;
-	
-	
-	p_carlos->idade=20;
+	alteraIdade(&carlos,20);
 	exibeHumano(carlos);
 	
 	return 0;

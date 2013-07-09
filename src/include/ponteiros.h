@@ -10,5 +10,6 @@ typedef struct humano{
 } humano;
 
 void exibeHumano(humano);
+void alteraIdade(humano*,int);
 
 #endif
