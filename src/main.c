@@ -8,7 +8,7 @@ int main(int argc, char* argv[]){
 	printf("Iniciando sistema.\n");
 	
 	texto teste = {sizeof("Carlos Roberto Lima Junior"),"Carlos Roberto Lima Junior"};
-	
+	mensagem();
 	
 	printf("Tamanho: %d, %s\n",teste.tamanho,teste.texto);
 	printf("Finalizando.\n");
