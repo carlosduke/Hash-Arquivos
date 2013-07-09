@@ -1,0 +1,1 @@
+typedef struct texto{	int tamanho;	char texto[1024];} texto;
